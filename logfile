@@ -1,0 +1,23 @@
+2022-05-31 06:29:20.563 CDT [12891] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-05-31 06:29:20.818 CDT [12891] LOG:  listening on IPv6 address "::1", port 5432
+2022-05-31 06:29:20.818 CDT [12891] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-05-31 06:29:20.864 CDT [12891] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-05-31 06:29:21.436 CDT [12896] LOG:  database system was interrupted; last known up at 2022-04-13 21:34:32 CDT
+2022-05-31 06:29:25.908 CDT [12896] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-05-31 06:29:26.001 CDT [12896] LOG:  redo starts at 0/1BDF1BF8
+2022-05-31 06:29:26.001 CDT [12896] LOG:  invalid record length at 0/1BDF1CE0: wanted 24, got 0
+2022-05-31 06:29:26.001 CDT [12896] LOG:  redo done at 0/1BDF1CA8
+2022-05-31 06:29:26.081 CDT [12891] LOG:  database system is ready to accept connections
+2022-05-31 06:48:25.825 CDT [13782] FATAL:  lock file "postmaster.pid" already exists
+2022-05-31 06:48:25.825 CDT [13782] HINT:  Is another postmaster (PID 12891) running in data directory "/usr/local/var/postgres_dev"?
+2022-05-31 10:54:44.908 CDT [12891] LOG:  received fast shutdown request
+2022-05-31 10:54:45.187 CDT [12891] LOG:  aborting any active transactions
+2022-05-31 10:54:46.207 CDT [12891] LOG:  background worker "logical replication launcher" (PID 12904) exited with exit code 1
+2022-05-31 10:54:46.248 CDT [12899] LOG:  shutting down
+2022-05-31 10:54:47.075 CDT [12891] LOG:  database system is shut down
+2022-05-31 10:57:07.344 CDT [87889] LOG:  starting PostgreSQL 13.7 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-05-31 10:57:07.413 CDT [87889] LOG:  listening on IPv6 address "::1", port 5432
+2022-05-31 10:57:07.413 CDT [87889] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-05-31 10:57:07.429 CDT [87889] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-05-31 10:57:07.481 CDT [87890] LOG:  database system was shut down at 2022-05-31 10:56:39 CDT
+2022-05-31 10:57:07.637 CDT [87889] LOG:  database system is ready to accept connections
